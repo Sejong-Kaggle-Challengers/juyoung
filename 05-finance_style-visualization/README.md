@@ -25,19 +25,19 @@
 
     - **양**의 상관관계가 높은 5쌍 ( 서로 **비례** 관계 )
 
-        monthly_loan         monthly_lc            0.986415
-        credit_card_payment  monthly_card_spend    0.985854
-        mortgage_loan        monthly_loan          0.985699
-        num_usecard          num_opencard          0.983744
-        monthly_loan         monthly_bk_loan       0.980280
+        monthly_loan         monthly_lc            0.986415   
+        credit_card_payment  monthly_card_spend    0.985854   
+        mortgage_loan        monthly_loan          0.985699   
+        num_usecard          num_opencard          0.983744   
+        monthly_loan         monthly_bk_loan       0.980280   
 
     - **음**의 상관관계가 높은 5쌍 ( 서로 **반비례** 관계 )
 
-        ages              num_usecard        -0.679487
-        num_opencard      ages               -0.688015
-        avg_score         monthly_sbk_loan   -0.701963
-        avg_rat           avg_score          -0.786341
-        monthly_sbk_loan  ages               -0.841758
+        ages              num_usecard        -0.679487   
+        num_opencard      ages               -0.688015   
+        avg_score         monthly_sbk_loan   -0.701963   
+        avg_rat           avg_score          -0.786341   
+        monthly_sbk_loan  ages               -0.841758   
 
 - **연령별 상관관계 분석**
 
