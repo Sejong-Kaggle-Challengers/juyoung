@@ -89,3 +89,9 @@ Random Forest와 같은 주요 **트리 기반 앙상블 모델**을 이용할 �
 2. XGBRegressor
 
     <img width="665" alt="07-XGB-shap" src="https://user-images.githubusercontent.com/59993108/105800460-17b24380-5fda-11eb-9fc0-cecb3769b79a.png">
+    
+    
+    num_usecard 의 영향이 높으므로 나머지 변수들에 대한 판단이 모호함.   
+    따라서 num_usecard 를 제거하고 다시 XGBRegressor에 대해 시각화를 하면 다음과 같다.
+    <img width="665" alt="xgb" src="https://user-images.githubusercontent.com/59993108/105826966-b784c700-6004-11eb-945b-02bb2411885d.png">
+
