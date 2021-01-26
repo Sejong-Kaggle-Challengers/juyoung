@@ -1,30 +1,29 @@
-# [DACON] KCB ±İÀ¶½ºÅ¸ÀÏ ½Ã°¢È­ °æÁø´ëÈ¸
+# [DACON] KCB ê¸ˆìœµìŠ¤íƒ€ì¼ ì‹œê°í™” ê²½ì§„ëŒ€íšŒ
 
-[»ó°ü°ü°è_¿¹Ãø¸ğµ¨_ºĞ¼®(4µîÆÀ)](https://dacon.io/competitions/official/82407/codeshare/726?page=1&dtype=recent&ptype=pub) ÄÚµå ºĞ¼®
+[ìƒê´€ê´€ê³„_ì˜ˆì¸¡ëª¨ë¸_ë¶„ì„(4ë“±íŒ€)](https://dacon.io/competitions/official/82407/codeshare/726?page=1&dtype=recent&ptype=pub) ì½”ë“œ ë¶„ì„
 
-ÇØ´ç ÆÀÀº KCB°¡ Á¦°øÇÏ´Â 1¹øÂ° µ¥ÀÌÅÍ¼ÂÀÎ *credit_card_data.csv* ¿¡ ´ëÇØ¼­¸¸ ½Ã°¢È­¸¦ ÁøÇà
+í•´ë‹¹ íŒ€ì€ KCBê°€ ì œê³µí•˜ëŠ” 1ë²ˆì§¸ ë°ì´í„°ì…‹ì¸ *credit_card_data.csv* ì— ëŒ€í•´ì„œë§Œ ì‹œê°í™”ë¥¼ ì§„í–‰
 
----
 
-## ºĞ¼® ¹× ½Ã°¢È­ °úÁ¤
 
-¾Æ·¡¿¡´Â ºĞ¼® °úÁ¤À» ¼øÂ÷ÀûÀ¸·Î °£´ÜÇÑ ¼³¸í°ú ÇÔ²² Á¤¸®ÇÑ °ÍÀÔ´Ï´Ù.
+## ë¶„ì„ ë° ì‹œê°í™” ê³¼ì •
 
----
+ì•„ë˜ì—ëŠ” ë¶„ì„ ê³¼ì •ì„ ìˆœì°¨ì ìœ¼ë¡œ ê°„ë‹¨í•œ ì„¤ëª…ê³¼ í•¨ê»˜ ì •ë¦¬í•œ ê²ƒì…ë‹ˆë‹¤.
 
-### [1] µ¥ÀÌÅÍ ÀüÃ³¸®
 
-°áÃø µ¥ÀÌÅÍ Ã³¸® - ( city : 'Àü±¹' / sex : 'ÀüÃ¼' )
+### [1] ë°ì´í„° ì „ì²˜ë¦¬
 
-### [2] »ó°ü°ü°è ºĞ¼®
+ê²°ì¸¡ ë°ì´í„° ì²˜ë¦¬ - ( city : 'ì „êµ­' / sex : 'ì „ì²´' )
 
-- **¾ç**ÀÇ »ó°ü°ü°è°¡ Å¬¼ö·Ï **ºñ·Ê
-À½**ÀÇ »ó°ü°ü°è°¡ Å¬¼ö·Ï **¹İºñ·Ê
-0**¿¡ °¡±î¿ï¼ö·Ï **³·Àº »ó°ü°ü°è**
+### [2] ìƒê´€ê´€ê³„ ë¶„ì„
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b29d7d42-0159-41b5-9b80-b9a315c8067c/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b29d7d42-0159-41b5-9b80-b9a315c8067c/Untitled.png)
+- **ì–‘**ì˜ ìƒê´€ê´€ê³„ê°€ í´ìˆ˜ë¡ **ë¹„ë¡€
+ìŒ**ì˜ ìƒê´€ê´€ê³„ê°€ í´ìˆ˜ë¡ **ë°˜ë¹„ë¡€
+0**ì— ê°€ê¹Œìš¸ìˆ˜ë¡ **ë‚®ì€ ìƒê´€ê´€ê³„**
 
-    - **¾ç**ÀÇ »ó°ü°ü°è°¡ ³ôÀº 5½Ö ( ¼­·Î **ºñ·Ê** °ü°è )
+    <img width="744" alt="01_corr" src="https://user-images.githubusercontent.com/59993108/105800356-dde13d00-5fd9-11eb-82aa-b63a809015a6.png">
+
+    - **ì–‘**ì˜ ìƒê´€ê´€ê³„ê°€ ë†’ì€ 5ìŒ ( ì„œë¡œ **ë¹„ë¡€** ê´€ê³„ )
 
         monthly_loan         monthly_lc            0.986415
         credit_card_payment  monthly_card_spend    0.985854
@@ -32,7 +31,7 @@
         num_usecard          num_opencard          0.983744
         monthly_loan         monthly_bk_loan       0.980280
 
-    - **À½**ÀÇ »ó°ü°ü°è°¡ ³ôÀº 5½Ö ( ¼­·Î **¹İºñ·Ê** °ü°è )
+    - **ìŒ**ì˜ ìƒê´€ê´€ê³„ê°€ ë†’ì€ 5ìŒ ( ì„œë¡œ **ë°˜ë¹„ë¡€** ê´€ê³„ )
 
         ages              num_usecard        -0.679487
         num_opencard      ages               -0.688015
@@ -40,53 +39,53 @@
         avg_rat           avg_score          -0.786341
         monthly_sbk_loan  ages               -0.841758
 
-- **¿¬·Éº° »ó°ü°ü°è ºĞ¼®**
+- **ì—°ë ¹ë³„ ìƒê´€ê´€ê³„ ë¶„ì„**
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/033b336d-1091-442f-b054-a283035b36c5/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/033b336d-1091-442f-b054-a283035b36c5/Untitled.png)
+    <img width="494" alt="02-age" src="https://user-images.githubusercontent.com/59993108/105800420-036e4680-5fda-11eb-880f-20152e47ef5f.png">
 
-- **Áö¿ªº° »ó°ü°ü°è ºĞ¼®**
+- **ì§€ì—­ë³„ ìƒê´€ê´€ê³„ ë¶„ì„**
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/68ae02e7-45b0-4e5f-a372-5fcde90c43e4/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/68ae02e7-45b0-4e5f-a372-5fcde90c43e4/Untitled.png)
+    <img width="687" alt="02-city" src="https://user-images.githubusercontent.com/59993108/105800445-0c5f1800-5fda-11eb-9a6d-4f5df34292e9.png">
 
-¿¬·É´ëº°·Î feature´Â ¼­·Î ´Ù¸¥ »ö, Áö¿ªº°·Î´Â °¢ feature´Â ºñ½ÁÇÑ »öÀ» °¡Áö´Â °æÇâ. 
-Áï, **½Å¿ëÁ¡¼ö**¿ÍÀÇ »ó°ü°ü°è´Â **Áö¿ª¿¡ µû¶ó¼­´Â ÆíÂ÷°¡ Å©Áö ¾ÊÁö¸¸**, **¿¬·É¿¡ µû¶ó¼­´Â ÆíÂ÷°¡ Å©´Ù´Â °Í**À» ¾Ë ¼ö ÀÖ´Ù.
+ì—°ë ¹ëŒ€ë³„ë¡œ featureëŠ” ì„œë¡œ ë‹¤ë¥¸ ìƒ‰, ì§€ì—­ë³„ë¡œëŠ” ê° featureëŠ” ë¹„ìŠ·í•œ ìƒ‰ì„ ê°€ì§€ëŠ” ê²½í–¥. 
+ì¦‰, **ì‹ ìš©ì ìˆ˜**ì™€ì˜ ìƒê´€ê´€ê³„ëŠ” **ì§€ì—­ì— ë”°ë¼ì„œëŠ” í¸ì°¨ê°€ í¬ì§€ ì•Šì§€ë§Œ**, **ì—°ë ¹ì— ë”°ë¼ì„œëŠ” í¸ì°¨ê°€ í¬ë‹¤ëŠ” ê²ƒ**ì„ ì•Œ ìˆ˜ ìˆë‹¤.
 
-### [3] ÇĞ½À : ½Å¿ëÁ¡¼ö ¿¹Ãø¸ğµ¨ ÇĞ½À
+### [3] í•™ìŠµ : ì‹ ìš©ì ìˆ˜ ì˜ˆì¸¡ëª¨ë¸ í•™ìŠµ
 
-½Å¿ëÁ¡¼ö¸¦ ¿¹ÃøÇÏ´Â ¸ğµ¨À» ÇĞ½ÀÇÏ¿© ½Å¿ëµµ¿¡ ¿µÇâÀ» ¸¹ÀÌ ÁÖ´Â ¿ä¼Ò¸¦ ºĞ¼®ÇÑ´Ù.
+ì‹ ìš©ì ìˆ˜ë¥¼ ì˜ˆì¸¡í•˜ëŠ” ëª¨ë¸ì„ í•™ìŠµí•˜ì—¬ ì‹ ìš©ë„ì— ì˜í–¥ì„ ë§ì´ ì£¼ëŠ” ìš”ì†Œë¥¼ ë¶„ì„í•œë‹¤.
 
-- target ( ¿¹Ãø ¸ñÇ¥ ) : 'avg_score' ( ½Å¿ë Á¡¼ö )
-- ÇĞ½À¿¡ »ç¿ëµÇ´Â ¿ä¼Ò: 'num_opencard', 'num_usecard', 'monthly_card_spend', 'monthly_lc', 'monthly_loan', 'monthly_bk_loan', 'monthly_cd_loan', 'monthly_installments_loan', 'monthly_insurance_loan', 'monthly_sbk_loan', 'loan_commitment', 'inst_rep_loanb', 'ls_rep_loanb', 'credit_loan', 'mortgage_loan', 'credit_card_payment', 'credit_card_installments_payment'
-- ÇĞ½À¿¡¼­ Á¦¿ÜµÈ ¿ä¼Ò: 'pop_cd', 'city', 'ages', 'sex', 'year_month', 'population', 'avg_rat'
+- target ( ì˜ˆì¸¡ ëª©í‘œ ) : 'avg_score' ( ì‹ ìš© ì ìˆ˜ )
+- í•™ìŠµì— ì‚¬ìš©ë˜ëŠ” ìš”ì†Œ: 'num_opencard', 'num_usecard', 'monthly_card_spend', 'monthly_lc', 'monthly_loan', 'monthly_bk_loan', 'monthly_cd_loan', 'monthly_installments_loan', 'monthly_insurance_loan', 'monthly_sbk_loan', 'loan_commitment', 'inst_rep_loanb', 'ls_rep_loanb', 'credit_loan', 'mortgage_loan', 'credit_card_payment', 'credit_card_installments_payment'
+- í•™ìŠµì—ì„œ ì œì™¸ëœ ìš”ì†Œ: 'pop_cd', 'city', 'ages', 'sex', 'year_month', 'population', 'avg_rat'
 
-**º¯¼ö Áß¿äµµ ºĞ¼®**
+**ë³€ìˆ˜ ì¤‘ìš”ë„ ë¶„ì„**
 
-Random Forest¿Í °°Àº ÁÖ¿ä **Æ®¸® ±â¹İ ¾Ó»óºí ¸ğµ¨**À» ÀÌ¿ëÇÒ ¶§, ¸ğµ¨ ÀÚÃ¼¿¡´Â **Feature Importance ¼Ó¼º**ÀÌ Á¸ÀçÇØ¼­ Æ¯º°ÇÑ °úÁ¤ ¾øÀÌµµ Áß¿äÇÑ º¯¼öµéÀ» ÇÑ´«¿¡ º¼ ¼ö ÀÖ´Ù.
+Random Forestì™€ ê°™ì€ ì£¼ìš” **íŠ¸ë¦¬ ê¸°ë°˜ ì•™ìƒë¸” ëª¨ë¸**ì„ ì´ìš©í•  ë•Œ, ëª¨ë¸ ìì²´ì—ëŠ” **Feature Importance ì†ì„±**ì´ ì¡´ì¬í•´ì„œ íŠ¹ë³„í•œ ê³¼ì • ì—†ì´ë„ ì¤‘ìš”í•œ ë³€ìˆ˜ë“¤ì„ í•œëˆˆì— ë³¼ ìˆ˜ ìˆë‹¤.
 
-- ***Feature Importance***: ÇØ´ç ¿ä¼Ò°¡ µ¥ÀÌÅÍ¸¦ **ÇĞ½À ¸ñÀû¿¡ ¸Â°Ô ¾ó¸¶³ª Àß ³ª´©´ÂÁö**
-- ***Permutation Importance***: ÇØ´ç ¿ä¼ÒÀÇ °ª¸¸ ´Ù¸¥ »ùÇÃ°ú ÀÓÀÇ·Î ¹Ù²Ù¾úÀ» ¶§ ¿¹Ãø ¼º´ÉÀÌ °¨¼ÒÇÏ´Â Á¤µµ. Áï, Æ¯Á¤ feature¸¦ ¾È ½èÀ» ¶§, ÀÌ°ÍÀÌ ¼º´É ¼Õ½Ç¿¡ ¾ó¸¶¸¸Å­ÀÇ ¿µÇâÀ» ÁÖ´ÂÁö¸¦ ÅëÇØ ±× featureÀÇ Áß¿äµµ¸¦ ÆÄ¾ÇÇÏ´Â ¹æ¹ı
+- ***Feature Importance***: í•´ë‹¹ ìš”ì†Œê°€ ë°ì´í„°ë¥¼ **í•™ìŠµ ëª©ì ì— ë§ê²Œ ì–¼ë§ˆë‚˜ ì˜ ë‚˜ëˆ„ëŠ”ì§€**
+- ***Permutation Importance***: í•´ë‹¹ ìš”ì†Œì˜ ê°’ë§Œ ë‹¤ë¥¸ ìƒ˜í”Œê³¼ ì„ì˜ë¡œ ë°”ê¾¸ì—ˆì„ ë•Œ ì˜ˆì¸¡ ì„±ëŠ¥ì´ ê°ì†Œí•˜ëŠ” ì •ë„. ì¦‰, íŠ¹ì • featureë¥¼ ì•ˆ ì¼ì„ ë•Œ, ì´ê²ƒì´ ì„±ëŠ¥ ì†ì‹¤ì— ì–¼ë§ˆë§Œí¼ì˜ ì˜í–¥ì„ ì£¼ëŠ”ì§€ë¥¼ í†µí•´ ê·¸ featureì˜ ì¤‘ìš”ë„ë¥¼ íŒŒì•…í•˜ëŠ” ë°©ë²•
 1. lightGBM
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5e424055-da40-4a40-8fd0-fc654b2f20e3/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5e424055-da40-4a40-8fd0-fc654b2f20e3/Untitled.png)
+    <img width="714" alt="04-lightBGM" src="https://user-images.githubusercontent.com/59993108/105800454-15e88000-5fda-11eb-999a-27c21bb56c76.png">
 
 2. XGBRegressor
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9702ffd2-8235-4a5c-81bf-7805f6617ce9/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9702ffd2-8235-4a5c-81bf-7805f6617ce9/Untitled.png)
+    <img width="714" alt="05-XGBRegressor" src="https://user-images.githubusercontent.com/59993108/105800457-16811680-5fda-11eb-8d7b-d672b7a33d56.png">
 
-### [4] ºĞ¼® : SHAP Áß¿äµµ ºĞ¼®
+### [4] ë¶„ì„ : SHAP ì¤‘ìš”ë„ ë¶„ì„
 
-À§ÀÇ Áß¿äµµ·Î´Â **º¯¼ö°¡ ¾ó¸¶³ª ¿µÇâÀ» ÁÖ´ÂÁö¸¸** ¾Ë ¼ö ÀÖÀ» »Ó, **½Å¿ëµµ¸¦ ³ôÀÌ°Å³ª ³·Ãß´Â µ¥¿¡´Â ¾î¶² ¿µÇâÀÌ ÀÖ´ÂÁö ¾Ë ¼ö ¾ø´Ù**.
+ìœ„ì˜ ì¤‘ìš”ë„ë¡œëŠ” **ë³€ìˆ˜ê°€ ì–¼ë§ˆë‚˜ ì˜í–¥ì„ ì£¼ëŠ”ì§€ë§Œ** ì•Œ ìˆ˜ ìˆì„ ë¿, **ì‹ ìš©ë„ë¥¼ ë†’ì´ê±°ë‚˜ ë‚®ì¶”ëŠ” ë°ì—ëŠ” ì–´ë–¤ ì˜í–¥ì´ ìˆëŠ”ì§€ ì•Œ ìˆ˜ ì—†ë‹¤**.
 
-**SHAP**¸¦ »ç¿ëÇØ º¯¼öÀÇ °ªÀÌ ³ôÀ»/³·À» ¶§ ½Å¿ëµµ°¡ ¿Ã¶ó°¡´ÂÁö ³»·Á°¡´ÂÁö¸¦ º¸ÀÎ´Ù.
+**SHAP**ë¥¼ ì‚¬ìš©í•´ ë³€ìˆ˜ì˜ ê°’ì´ ë†’ì„/ë‚®ì„ ë•Œ ì‹ ìš©ë„ê°€ ì˜¬ë¼ê°€ëŠ”ì§€ ë‚´ë ¤ê°€ëŠ”ì§€ë¥¼ ë³´ì¸ë‹¤.
 
 1. lightGBM
 
-    ÇÏ´Ü ±×¸²ÀÎ lightBGM ¸ğµ¨¿¡ ´ëÇÑ SHAP value ÇØ¼®
+    í•˜ë‹¨ ê·¸ë¦¼ì¸ lightBGM ëª¨ë¸ì— ëŒ€í•œ SHAP value í•´ì„
 
-    - num_usecard : º¯¼ö°ªÀÌ ³·À»¼ö·Ï, ½Å¿ë µî±ŞÀÌ ³ôÀº °æÇâ
+    - num_usecard : ë³€ìˆ˜ê°’ì´ ë‚®ì„ìˆ˜ë¡, ì‹ ìš© ë“±ê¸‰ì´ ë†’ì€ ê²½í–¥
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/35173d22-5fd3-49a5-9409-34fa6ad8cc21/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/35173d22-5fd3-49a5-9409-34fa6ad8cc21/Untitled.png)
+    <img width="665" alt="06-light-Shap" src="https://user-images.githubusercontent.com/59993108/105800458-1719ad00-5fda-11eb-84f7-e9959dbdc4c7.png">
 
 2. XGBRegressor
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/10105552-35f8-4f55-b6ab-ae7982b71941/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/10105552-35f8-4f55-b6ab-ae7982b71941/Untitled.png)
+    <img width="665" alt="07-XGB-shap" src="https://user-images.githubusercontent.com/59993108/105800460-17b24380-5fda-11eb-9fc0-cecb3769b79a.png">
