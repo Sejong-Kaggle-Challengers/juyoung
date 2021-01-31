@@ -9,13 +9,13 @@
 
 
 | 번호 | 날짜 | 주제 | 코드 | 분석 및 설명 | 참고 |
-|:---:|:---:|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|:---:|:---|
 | [1] |2020.12.29.| [병원 개/폐업 분류](https://dacon.io/competitions/official/9565/overview/) | [Code](hospital-ensemble.ipynb) | | |
 | [2] |2021.01.12.| [대출 상점 총 매출 예측](https://dacon.io/competitions/official/136/overview/) | | | |
 | [3] |2021.01.19.| [아파트 경매가격 예측](https://dacon.io/competitions/official/17801/overview/) | | | |
-| [4] |2021.01.22.| [신용카드 거래 데이터 시각화](https://dacon.io/competitions/official/42473/overview/) | | | 1등 수상자 코드 분석 |
-| [5] |2021.01.26| [KCB 금융스타일 시각화](https://dacon.io/competitions/official/82407/overview/) | [Code](05-finance_style-visualization.ipynb) | [시각화](https://github.com/Sejong-Kaggle-Challengers/juyoung/tree/main/05-finance_style-visualization) |4등 수상자 코드 분석 |
-
+| [4] |2021.01.22.| [신용카드 거래 데이터 시각화](https://dacon.io/competitions/official/42473/overview/) | [Code](04_credit_card_visualization_1stCode.ipynb)| [분석+시각화](https://github.com/Sejong-Kaggle-Challengers/juyoung/tree/main/04-credit_card-visualization)| 1등 수상자 코드 분석 |
+| [5] |2021.01.26.| [KCB 금융스타일 시각화](https://dacon.io/competitions/official/82407/overview/) | [Code](05-finance_style-visualization.ipynb) | [정리+시각화](https://github.com/Sejong-Kaggle-Challengers/juyoung/tree/main/05-finance_style-visualization) |4등 수상자 코드 분석 |
+| [6] |2021.01.29. <br> 2021.02.02.| [퇴근시간 버스승차인원 예측 경진대회](https://dacon.io/competitions/official/229255/overview/) |  |  | ① 직접 구현 <br> ② 2등 수상자 코드 분석 |
 
 
 

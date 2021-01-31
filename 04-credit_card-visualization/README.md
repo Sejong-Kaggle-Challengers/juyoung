@@ -1,21 +1,21 @@
-# [DACON] ½Å¿ëÄ«µå °Å·¡ µ¥ÀÌÅÍ ½Ã°¢È­
+# [DACON] ì‹ ìš©ì¹´ë“œ ê±°ëž˜ ë°ì´í„° ì‹œê°í™”
 
-[TEAM-EDA 1µî](https://dacon.io/competitions/official/42473/codeshare/427?page=1&dtype=recent&ptype=pub) ÄÚµå ºÐ¼®
+[TEAM-EDA 1ë“±](https://dacon.io/competitions/official/42473/codeshare/427?page=1&dtype=recent&ptype=pub) ì½”ë“œ ë¶„ì„
 
-¾÷·Îµå ÁøÇà Áß
+ì—…ë¡œë“œ ì§„í–‰ ì¤‘ ðŸ’¨
 
-> º» ÄÚµå ºÐ¼®À» ÅëÇØ Feature °£ ºÐ¼® ¹× °ü°è ÆÄ¾ÇÀÌ ¿ëÀÌÇØÁú °Í
+> ë³¸ ì½”ë“œ ë¶„ì„ì„ í†µí•´ Feature ê°„ ë¶„ì„ ë° ê´€ê³„ íŒŒì•…ì´ ìš©ì´í•´ì§ˆ ê²ƒìž…ë‹ˆë‹¤
 
-## ´ëÈ¸ ¼³¸í
+## ëŒ€íšŒ ì„¤ëª…
 
-¼Ò»ó°øÀÎ ½Å¿ëÄ«µå °Å·¡ ³»¿ª µ¥ÀÌÅÍ¸¦ È°¿ëÇÏ¿© »õ·Î¿î ÀÎ»çÀÌÆ® ½Ã°¢È­ÇÏ±â
+ì†Œìƒê³µì¸ ì‹ ìš©ì¹´ë“œ ê±°ëž˜ ë‚´ì—­ ë°ì´í„°ë¥¼ í™œìš©í•˜ì—¬ ìƒˆë¡œìš´ ì¸ì‚¬ì´íŠ¸ ì‹œê°í™”í•˜ê¸°
 
-- Data Instruction
-    - store_id : »óÁ¡ °íÀ¯ ¹øÈ£
-    - date : °Å·¡ ÀÏÀÚ
-    - time : °Å·¡ ½Ã°£
-    - card_id : Ä«µå ¹øÈ£ÀÇ hash
-    - amount : ¸ÅÃâ¾×. À½¼ö´Â Ãë¼ÒµÈ ¸ÅÃâÀ» ÀÇ¹Ì
-    - installments : ÇÒºÎ °³¿ù¼ö. °áÃøµ¥ÀÌÅÍ´Â ÀÏ½ÃºÒÀ» ÀÇ¹Ì
-    - days_of_week : ¿äÀÏ, ¿ù¿äÀÏ(0) - ÀÏ¿äÀÏ(6)
-    - holiday : °øÈÞÀÏ
+* Data Instruction
+  - store_id : ìƒì  ê³ ìœ  ë²ˆí˜¸
+  - date : ê±°ëž˜ ì¼ìž
+  - time : ê±°ëž˜ ì‹œê°„
+  - card_id : ì¹´ë“œ ë²ˆí˜¸ì˜ hash
+  - amount : ë§¤ì¶œì•¡. ìŒìˆ˜ëŠ” ì·¨ì†Œëœ ë§¤ì¶œì„ ì˜ë¯¸
+  - installments : í• ë¶€ ê°œì›”ìˆ˜. ê²°ì¸¡ë°ì´í„°ëŠ” ì¼ì‹œë¶ˆì„ ì˜ë¯¸
+  - days_of_week : ìš”ì¼, ì›”ìš”ì¼(0) - ì¼ìš”ì¼(6)
+  - holiday : ê³µíœ´ì¼
