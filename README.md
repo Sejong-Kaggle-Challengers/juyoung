@@ -8,7 +8,7 @@
 코드에 대한 질문은 [*Issue*](https://github.com/Sejong-Kaggle-Challengers/juyoung/issues) 에 남겨주세요 ✔
 
 
-| 번호 | 날짜 | 주제 | 코드 | 분석 및 설명 | 참고 |
+| 번호 | 날짜 | 주제 | 코드 | 분석/설명 | 참고 |
 |:---:|:---:|:---:|:---:|:---:|:---|
 | [1] |2020.12.29.| [병원 개/폐업 분류](https://dacon.io/competitions/official/9565/overview/) | [Code](hospital-ensemble.ipynb) | | |
 | [2] |2021.01.12.| [대출 상점 총 매출 예측](https://dacon.io/competitions/official/136/overview/) | | | |
