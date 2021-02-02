@@ -5,13 +5,9 @@
 * 날짜 데이터를 통해 주말/평일 정보 추가하기
 * 승·하차 시간대를 예측해야하는 시간 단위에 맞춰 2시간 단위로 결합
 
-<br>
-
 ---
 
 ### ② DACON 예측 경진 대회 2등 [Dining 팀](https://dacon.io/competitions/official/229255/codeshare/594?page=1&dtype=recent&ptype=pub) 코드 분석
-
-<br>
 
 📍 중요 포인트
 * 날짜 데이터 day, week, weekday로 세분화
@@ -69,8 +65,6 @@
    * 각 category_feature의끼리 빈도수에 대해 새로 mapping한 column의 이름을 ~_freq_enc로 추가
 
 
-<br>
-
 ### 전처리 과정을 거치면 21 columns 에서 188 columns로 증가된 것을 확인할 수 있음
 
 <Br>
@@ -91,8 +85,7 @@
       
       features_columns = [col for col in tr.columns if col not in remove_features]
       ```
-<br> 
-
+      
 ---
 
 ## [3] 모델 학습
