@@ -15,7 +15,7 @@
 | [3] |2021.01.19.| [아파트 경매가격 예측](https://dacon.io/competitions/official/17801/overview/) | | | |
 | [4] |2021.01.22.| [신용카드 거래 데이터 시각화](https://dacon.io/competitions/official/42473/overview/) | [Code](04-credit_card-visualization/04_credit_card_visualization_1stCode.ipynb)| [분석](https://github.com/Sejong-Kaggle-Challengers/juyoung/tree/main/04-credit_card-visualization)| 1등 수상자 코드 분석 |
 | [5] |2021.01.26.| [KCB 금융스타일 시각화](https://dacon.io/competitions/official/82407/overview/) | [Code](05-finance_style-visualization/05-finance_style-visualization.ipynb) | [정리](https://github.com/Sejong-Kaggle-Challengers/juyoung/tree/main/05-finance_style-visualization) |4등 수상자 코드 분석 |
-| [6] |2021.01.29. <br> 2021.02.02.| [퇴근시간 버스승차인원 예측 경진대회](https://dacon.io/competitions/official/229255/overview/) | [Code①](06-jeju_bus/06_jeju_bus.ipynb) <br> [Code②](06-jeju_bus/06_jeju_bus_2nd_Code.ipynb) |  | ① 직접 구현 <br> ② 2등 수상자 코드 분석 |
+| [6] |2021.01.29. <br> 2021.02.02.| [퇴근시간 버스승차인원 예측](https://dacon.io/competitions/official/229255/overview/) | [Code①](06-jeju_bus/06_jeju_bus.ipynb) <br> [Code②](06-jeju_bus/06_jeju_bus_2nd_Code.ipynb) |  | ① 직접 구현 <br> ② 2등 수상자 코드 분석 |
 
 
 <br>
